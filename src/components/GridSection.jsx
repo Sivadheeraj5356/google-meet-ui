@@ -33,6 +33,7 @@ const GridSection = ({ users }) => {
     if (userCount <= 2) return 'h-[65vh] mt-5';
     if (userCount === 3) return 'h-[50vh] md:h-[40vh]';
     if (userCount <= 4) return 'h-[45vh] md:h-[35vh]';
+    if (userCount == 5) return 'h-[45vh] md:h-60';
     if (userCount <= 6) return 'h-[35vh] md:h-40';
     if (userCount == 7) return 'h-[35vh] md:h-40';
     if (userCount == 8) return 'h-[35vh] md:h-32';
